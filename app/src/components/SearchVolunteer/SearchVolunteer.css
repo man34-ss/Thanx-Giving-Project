@@ -1,0 +1,165 @@
+.search-volunteer {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    background-color: rgb(31, 30, 30);
+    border-radius: 8px;
+    /* color: white; */
+    /* border: 1px solid #ddd; */
+}
+
+.text-center.top__heading1 {
+    color: white;
+  }
+  
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.volunteer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.volunteer-form label {
+    font-weight: bold;
+}
+
+
+/* purpose added */
+.Purpose label {
+    color: white; /* Set the label text color to white */
+    font-size: 16px; /* Optional: Adjust the font size */
+    margin-bottom: 5px; /* Add spacing below the label */
+    display: block; /* Ensure the label is on its own line */
+}
+
+.Purpose input {
+    background-color: #333; /* Set a dark background for the input field */
+    color: white; /* Set the input text color to white */
+    border: 1px solid #666; /* Add a subtle border for better visibility */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding: 10px; /* Add padding for better usability */
+    width: 100%; /* Make the input field take full width of the parent container */
+    font-size: 14px; /* Adjust font size for better readability */
+    box-sizing: border-box; /* Ensure padding does not affect width calculation */
+}
+
+.Purpose input::placeholder {
+    color: #aaa; /* Set the placeholder text color to a lighter shade */
+}
+
+/* city added */
+
+.City label {
+    color: white; /* Set the label text color to white */
+    font-size: 16px; /* Adjust the font size */
+    margin-bottom: 5px; /* Add spacing below the label */
+    display: block; /* Ensure the label is on its own line */
+}
+
+.City input {
+    background-color: #333; /* Dark background for the input field */
+    color: white; /* White text for the input field */
+    border: 1px solid #666; /* Subtle border for visibility */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 10px; /* Add padding for better usability */
+    width: 100%; /* Make the input field take full width of the parent container */
+    font-size: 14px; /* Adjust font size for readability */
+    box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+.City input::placeholder {
+    color: #aaa; /* Light gray color for placeholder text */
+}
+
+.City datalist option {
+    background-color: #333; /* Dark background for dropdown options */
+    color: white; /* White text for dropdown options */
+    font-size: 14px; /* Adjust font size */
+}
+
+
+.volunteer-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.volunteer-form button {
+    padding: 10px;
+    font-size: 16px;
+    background: #f3f7e3;
+    color: rgb(22, 21, 21);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.volunteer-form button:hover {
+    background: #e7f6b8;
+}
+
+.error {
+    color: rgb(247, 171, 171);
+    text-align: center;
+}
+
+.volunteer-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.volunteer-list li {
+    background: #f9f1c1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #343536;
+    border-radius: 5px;
+}
+/* Common button styling for both buttons */
+.styled-button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Success message styling (for predicted urgency) */
+.prediction-section p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.loading {
+    color: white;
+}
+
+.alert-message {
+    margin-top: 8px;
+    color: white
+}     
